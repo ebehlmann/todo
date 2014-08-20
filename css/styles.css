@@ -1,3 +1,12 @@
 #list-container {
 	display: none;
 }
+
+ul#list-of-lists li {
+	color: #3366FF;
+	text-decoration: underline;
+}
+
+ul#list-of-lists li:hover {
+	cursor: pointer;
+}
