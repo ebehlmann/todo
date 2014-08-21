@@ -9,4 +9,14 @@ ul#list-of-lists li {
 
 ul#list-of-lists li:hover {
 	cursor: pointer;
+	background-color: #ddd;
+}
+
+.your-lists {
+	background-color: #B8DBFF;
+	padding: 1em;
+}
+
+.center {
+	text-align: center;
 }

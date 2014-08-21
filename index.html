@@ -10,37 +10,36 @@
   <body>
   	<div class="container">
   		<div class="row">
+  		  <h1 class="page-header center">Things to do</h1>
   			<div class="col-md-6">
-  				<h1>Things to do</h1>
-  	
-  				<h3>Your Lists</h3>
-  				<ul id="list-of-lists">
-  				</ul>
-  	
+  				<div class="your-lists">
+ 	 					<h3>Your Lists</h3>
+  					<ul id="list-of-lists" class="list-group">
+  					</ul>
+  				</div>
+  				
   				<h3>Create a List</h3>
   				<form id="new-list">
   					<div class="form-group">
-        			<label for="new-list-name">List name</label>
-        			<input type="text" class="form-control" id="new-list-name">
+        			<input type="text" class="form-control" id="new-list-name" placeholder="List name">
       			</div>
-      			<button type="submit" class="btn">Add</button>
+      			<button type="submit" class="btn">Add list</button>
   				</form>
   			</div>
   			
   			<div class="col-md-6">
   				<div id="list-container">
   					<h2>Sample List</h2>
-  					<ul>
+  					<ul class="list-group">
   						
   					</ul>
   				
   					<h3>Add a task to the <span id="current-list">blah</span> list</h3>
   					<form id="new-task">
   						<div class="form-group">
-        				<label for="new-task-name">Task name</label>
-        				<input type="text" class="form-control" id="new-task-name">
+        				<input type="text" class="form-control" id="new-task-name" placeholder="Task name">
       				</div>
-      				<button type="submit" class="btn" id-"add-task">Add</button>
+      				<button type="submit" class="btn" id-"add-task">Add task</button>
   					</form>
   				</div>
   				
